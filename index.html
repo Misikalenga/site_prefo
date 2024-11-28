@@ -3,31 +3,28 @@
     <head>    
         <title>MisiDev</title>
         <meta charset="UTF-8"/>
-        <link href="/assets/style/style.css" ref="stylesheet"/>
+        <link href="assets/style/style.css" rel="stylesheet"/>
+        <script> 
+            function applyStylesToIframe() { 
+                var iframe = document.getElementById('menu-iframe'); 
+                iframe.onload = function() { 
+                    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document; 
+                    var specificLink = iframeDocument.getElementById('specific-link'); 
+                    if (specificLink) { 
+                        specificLink.style.backgroundColor = 'red'; 
+                        specificLink.style.color = 'white';
+                    } 
+                }; 
+            } 
+            window.onload = applyStylesToIframe; 
+        </script>
     </head>
     <body>
         <!-- MENU -->
         <header id="header" class="header">
-
-            <a><h1>MisiDev</h1></a>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a href="#1">1</a></li>
-                    <li><a href="#2">2</a></li>
-                    <li><a href="#3">3</a></li>
-                  <li></li>
-                    <li>
-                        <a><span>Menu+</span></a>
-                        <ul>
-                            <li><a href="assets/exposition">Exposition</a></li>
-                            <li><a href="assets/interview">Interview</a></li>
-                            <li><a href="assets/galerie">Galerie</a></li>
-                            <li><a href="assets/conclusion">Conclusion</a></li>
-                            <li><a href="assets/contact">Conctact</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+        <!-- nav -->
+            <iframe src="assets/pages/nav.html" id="menu-iframe" ></iframe>
+        <!-- End nav -->
         </header>
         <!-- End MENU-->
         <!-- HERO -->
@@ -77,17 +74,24 @@
             <div id="container" >
                 <div id="col">
                     <div id="box" class="box">
+                        <i class="iconebox"></i>
+                        <h2>Point fort 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
 
                     </div>
                 </div>
                 <div id="col">
                     <div id="box" class="box">
-                        
+                        <h2>Point fort 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
+
                     </div>
                 </div>
                 <div id="col">
                     <div id="box" class="box">
-                        
+                         <h2>Point fort 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
+
                     </div>
                 </div>
             </div> 
@@ -98,13 +102,13 @@
         <!-- Why Us-->
         <section id="2" class="whyus">
             <div id="container" >
-                <h2>À mon sujet</h2>
-                <p>Apprenez s'en plus sur moi</p>
+                <h2>Pourquoi moi</h2>
+                <p> </p>
             </div> 
             <div>
                 <div id="row">
                     <div id="col">
-                        <h3>Future développeur web</h>
+                        <h3>Pourquoi moi</h>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
                                 excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
                                 Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
@@ -124,7 +128,7 @@
         <!-- Review-->
         <section id="3" class="review">
             <div id="container" >
-
+                
             </div> 
          </section>
         <!-- End Review-->
