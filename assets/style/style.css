@@ -15,7 +15,7 @@ iframe
     background-color: rgb(94, 206, 240);
 } */
 
-iframe :visited
+.nav_active :active
 {
     background-color: red;
 }

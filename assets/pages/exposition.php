@@ -6,13 +6,16 @@
         <link href="../style/style.css" rel="stylesheet"/>
     </head>
     <body>
-
+        <?
+            include_once __DIR__ . '../../config.php';
+            include "assets/pages/nav.php"; 
+        ?>
         <!-- MENU -->
         <header id="header" class="header">
-            <!-- nav -->
-                <iframe src="nav.html" id="exposition" ></iframe>
-            <!-- End nav -->
-            </header>
-            <!-- End MENU-->
+        <!-- nav -->
+            <?php include "nav.php"; ?>
+        <!-- End nav -->
+        </header>
+        <!-- End MENU-->
     </body>
 </html>

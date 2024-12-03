@@ -1,7 +1,7 @@
 <!DOCTYPE>
 <html lang="fr">
     <head>    
-        <title>Contact</title>
+        <title>Galerie</title>
         <meta charset="UTF-8"/>
         <link href="../style/style.css" rel="stylesheet"/>
     </head>
@@ -9,10 +9,10 @@
 
         <!-- MENU -->
         <header id="header" class="header">
-            <!-- nav -->
-                <iframe src="nav.html" id="contact"></iframe>
-            <!-- End nav -->
-            </header>
-            <!-- End MENU-->
+        <!-- nav -->
+            <?php include "assets/pages/nav.php"; ?>
+        <!-- End nav -->
+        </header>
+        <!-- End MENU-->
     </body>
 </html>

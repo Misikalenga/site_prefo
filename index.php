@@ -4,26 +4,14 @@
         <title>MisiDev</title>
         <meta charset="UTF-8"/>
         <link href="assets/style/style.css" rel="stylesheet"/>
-        <script> 
-            function applyStylesToIframe() { 
-                var iframe = document.getElementById('menu-iframe'); 
-                iframe.onload = function() { 
-                    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document; 
-                    var specificLink = iframeDocument.getElementById('specific-link'); 
-                    if (specificLink) { 
-                        specificLink.style.backgroundColor = 'red'; 
-                        specificLink.style.color = 'white';
-                    } 
-                }; 
-            } 
-            window.onload = applyStylesToIframe; 
-        </script>
     </head>
     <body>
         <!-- MENU -->
         <header id="header" class="header">
         <!-- nav -->
-            <?php include "assets/pages/nav"; ?>
+        <?php 
+        include 'assets/pages/nav.php';
+        ?>
         <!-- End nav -->
         </header>
         <!-- End MENU-->
@@ -128,7 +116,13 @@
         <!-- Review-->
         <section id="3" class="review">
             <div id="container" >
-                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
+                    excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
+                    Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
+                    sunt debitis pariatur dolor temporibus odio. Aliquid consectetur eveniet in quam, possimus ad natus maiores numquam 
+                    beatae! Voluptatibus aliquam impedit voluptas.
+                </p>                       
             </div> 
          </section>
         <!-- End Review-->
