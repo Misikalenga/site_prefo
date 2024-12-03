@@ -1,16 +1,19 @@
 <!DOCTYPE>
 <html lang="fr">
     <head>    
-        <title>Galerie</title>
+        <title>Exposition</title>
         <meta charset="UTF-8"/>
-        <link href="../style/style.css" rel="stylesheet"/>
+        <link href="assets/style/style.css" rel="stylesheet"/>
     </head>
     <body>
-
+        <?
+            include_once __DIR__ . '../../config.php';
+            include "assets/pages/nav.php"; 
+        ?>
         <!-- MENU -->
         <header id="header" class="header">
         <!-- nav -->
-            <?php include "assets/pages/nav.php"; ?>
+            <?php include "nav.php"; ?>
         <!-- End nav -->
         </header>
         <!-- End MENU-->
