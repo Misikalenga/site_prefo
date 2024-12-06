@@ -1,32 +1,46 @@
 <?php
 
-    $active = false;
+    $activeExpo = false;
+    $activeInter = false;
+    $activeGaler = false;
+    $activeConclu = false;
+    $activeCont = false;
     if (isset($_GET['pg'])){
-        if ($_GET['pg'] == 'conclusion'){
-            $active = true;
-            echo $active ;
+        if ($_GET['pg'] == 'exposition'){
+            $activeExpo = true;
+ 
         }
+        else if($_GET['pg'] == 'interview'){
+            $activeInter = true;
+ 
+        }
+        else if($_GET['pg'] == 'galerie'){
+            $activeGaler = true;
+ 
+        }
+        else if($_GET['pg'] == 'conclusion'){
+            $activeConclu = true;
+ 
+        }
+        else if($_GET['pg'] == 'contact'){
+            $activeCont = true;
+ 
+        }
+
     }
 ?>
 <!-- nav -->
             
-            <nav id="navbar" class="navbar">
-                <a  href="index.php"><h1>MisiDev</h1></a>
-                <ul class="menu">
-                    <li><a href="index.php#1"  >1</a></li>
-                    <li><a href="index.php#2"  >2</a></li>
-                    <li><a href="index.php#3"  >3</a></li>
-                    <li></li>
-                    <li>
-                        <a><span>Menu+</span></a>
-                        <ul>
-                            <li><a href="?pg=exposition" class="exposition" target="_parent">Exposition</a></li>
-                            <li><a href="?pg=interview" class="interview" target="_parent">Interview</a></li>
-                            <li><a href="?pg=galerie" class="galerie" target="_parent">Galerie</a></li>
-                            <li><a href="?pg=conclusion" class="<?php if($active == true){echo "active";}?>" >Conclusion</a></li>
-                            <li><a href="?pg=contact" class="contact" target="_parent">Conctact</a></li>
-                        </ul>
-                    </li>
+        <nav id="navbar" class="navbar">            
+            <a href="index.php" class="iconemenu" >MisiDev</a></li>
+            <div class="menu">
+                <ul class="boutonmenu">
+                    <li ><a href="?pg=exposition" class="<?php if($activeExpo == true){echo "active";}?>" >Exposition</a></li>
+                    <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}?>" >Interview</a></li>
+                    <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}?>" >Galerie</a></li>
+                    <li ><a href="?pg=conclusion" class="<?php if($activeConclu == true){echo "active";}?>" >Conclusion</a></li>
+                    <li ><a href="?pg=contact" class="<?php if($activeCont == true){echo "active";}?>" >Conctact</a></li>
                 </ul>
-            </nav>
+            </div>
+        </nav>
 <!-- End nav -->

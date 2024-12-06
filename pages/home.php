@@ -8,7 +8,7 @@
     <body>
         <!-- MENU -->
         <header id="header" class="header">
-        <a  href="index.php"><h1>MisiDev</h1></a>
+
         <!-- nav -->
         <?php 
         include 'nav.php';

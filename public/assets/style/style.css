@@ -3,15 +3,13 @@
     background-color: red;
 }
 
-.nav
+.navbar
 {
     display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    /* justify-content: center; */
 }
-
-/* body
-{
-    background-color: rgb(94, 206, 240);
-} */
 
 
 a
@@ -19,7 +17,40 @@ a
     color: green;
 }
 
-#menu-iframe .conclusion 
+.menu
 {
-    color: rgb(128, 77, 0);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+
+}
+
+
+.boutonmenu
+{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+li 
+{
+    position: relative;
+}
+
+.iconemenu
+{
+    margin-right: 10px;
+    justify-content: flex-start;
+
+}
+
+
+h6 
+{
+    font-size: 40rem;
+    margin: 10px;
 }
