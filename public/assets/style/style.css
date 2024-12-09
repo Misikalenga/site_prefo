@@ -43,6 +43,8 @@ section
     margin: 10;
     padding: 0;
     align-items: center;
+    justify-content: center;
+    width: 80%;
 }
 
 
@@ -212,4 +214,104 @@ h4
 .copyright
 {
     margin:10px;
+}
+
+/* Version Iphone */
+.burgerOn
+{
+    display: none;
+    margin: 10;
+    padding: 0;
+    align-items: center;
+
+}
+.burgerOff
+{
+    display: none;
+    margin: 10;
+    padding: 0;
+    align-items: center;
+
+}
+
+.menuburger
+{
+    display: none;
+    list-style: none;
+}
+
+
+@media (max-width: 750px)
+{
+    .navbar
+    {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background: linear-gradient(0deg, #00ff73, #c20303);
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        top: 0;
+    }
+    
+    .menu
+    {
+        display: none;
+        margin: 10;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+
+    }
+    .burgerOn
+    {
+        display: flex;
+        margin-left: 30px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .burgerOn img
+    {    
+        width: 50px;
+        height: 50px;        
+    }
+
+    .burgerOff
+    {
+        display: none;
+
+        margin-left: 30px;
+        padding: 0;
+        align-items: center;
+    }
+
+    .burgerOff img
+    {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .menuburger
+    {
+        display:list-item;
+        list-style: none;
+        background: linear-gradient(0deg, #00ff73, #c20303);
+        margin: 0;
+        position: fixed;
+        top: 70px;
+        height: 100%;
+        width: 70%;
+        left: 0;
+    }
+
+    .menuburger li
+    {
+        margin: 20px;
+    }
+
 }
