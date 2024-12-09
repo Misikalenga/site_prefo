@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="fr">
     <head>    
         <title>Conclusion</title>
@@ -6,17 +6,18 @@
         <link href="assets/style/style.css" rel="stylesheet"/>
     </head>
     <body>
-
         <!-- MENU -->
-        <header id="header" class="header">
+        <header  class="header">
+
             <!-- nav -->
             <?php 
                 include 'nav.php';
-
             ?>
             <!-- End nav -->
-            </header>
-            <!-- End MENU-->
+        </header>
+        <!-- End MENU-->
+
+        <section>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eum voluptatibus, 
             perspiciatis in consectetur ut ipsa ducimus neque quidem? Voluptatum cumque quae illum vitae debitis. 
@@ -33,5 +34,13 @@
             deserunt dolorem assumenda laboriosam, quo sunt fugit accusamus minus tempora cumque velit provident. Totam dolorem quasi 
             facere obcaecati et hic amet voluptates vero.
         </p>
+        </section>
+        
+        <!-- Footer --> 
+        <?php 
+            include 'footer.php';
+        ?>
+        <!-- End Footer --> 
+
     </body>
 </html>
