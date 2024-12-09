@@ -31,15 +31,15 @@
 ?>
 <!-- nav -->
             
-        <nav id="navbar" class="navbar">            
-            <a href="index.php" class="iconemenu" >MisiDev</a></li>
+        <nav  class="navbar">            
+            <a href="index.php"  ><h5 class="iconemenu" >MisiDev</h5></a>
             <div class="menu">
                 <ul class="boutonmenu">
-                    <li ><a href="?pg=exposition" class="<?php if($activeExpo == true){echo "active";}?>" >Exposition</a></li>
-                    <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}?>" >Interview</a></li>
-                    <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}?>" >Galerie</a></li>
-                    <li ><a href="?pg=conclusion" class="<?php if($activeConclu == true){echo "active";}?>" >Conclusion</a></li>
-                    <li ><a href="?pg=contact" class="<?php if($activeCont == true){echo "active";}?>" >Conctact</a></li>
+                    <li ><a href="?pg=exposition" class="<?php if($activeExpo == true){echo "active";}else{echo "bouton";}?>" >Exposition</a></li>
+                    <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}else{echo "bouton";}?>" >Interview</a></li>
+                    <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}else{echo "bouton";}?>" >Galerie</a></li>
+                    <li ><a href="?pg=conclusion" class="<?php if($activeConclu == true){echo "active";}else{echo"bouton";}?>" >Conclusion</a></li>
+                    <li ><a href="?pg=contact" class="<?php if($activeCont == true){echo "active";}else{echo "bouton";}?>" >Conctact</a></li>
                 </ul>
             </div>
         </nav>

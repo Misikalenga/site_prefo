@@ -1,30 +1,48 @@
-.active
+/* Cadre */
+
+body
 {
-    background-color: red;
+    margin: 0;
+    padding-top: 100px;
 }
+
+header
+{
+    margin: 0;
+}
+
+section
+{
+    margin: 10px;
+}
+
+
+
+
+/* Menu */
+
 
 .navbar
 {
     display: flex;
     align-items: center;
     justify-content:  space-between;
-    /* justify-content: center; */
+    background: linear-gradient(0deg, #0ad1a9, #4f03c2);
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 
-a
-{
-    color: green;
-}
+
 
 .menu
 {
     display: flex;
-    margin: 0;
+    margin: 10;
     padding: 0;
     align-items: center;
-
-
 }
 
 
@@ -33,24 +51,165 @@ a
     display: flex;
     list-style: none;
     gap: 20px;
-
 }
 
-li 
-{
-    position: relative;
-}
+
 
 .iconemenu
 {
-    margin-right: 10px;
-    justify-content: flex-start;
-
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
 }
 
+.iconemenu:hover
+{
+    background-color: rgb(17, 86, 125);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.bouton
+{
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.bouton:hover
+{
+    background-color: rgb(17, 86, 125);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active
+{
+    background-color: rgb(17, 86, 125);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h5
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
 
 h6 
 {
-    font-size: 40rem;
+    font-size: 20rem;
     margin: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Footer */
+
+.ficonemenu
+{
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.pfooter
+{
+    margin-top: 10px;
+    color: azure;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footertext
+{
+    width: 30%;
+    padding-left: 20px;
+}
+
+.listfooter
+{
+    list-style: none;
+    gap: 20px;
+
+}
+
+.footer
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: linear-gradient(0deg, #727272, #272727);
+    height: 300px;
+}
+
+.menufooter
+{
+    display: flex;
+}
+
+.liens
+{
+    margin-left: 50px;
+    color: white;
+}
+
+
+hr
+{
+    background-color: rgb(164, 235, 212);
+    border: none;
+    height: 3px;
+    margin: 0,
+}
+
+h4
+{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.fbouton
+{
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.fbouton:hover
+{
+    color: rgb(164, 235, 212);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.factive
+{
+    color: rgb(164, 235, 212);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.copyright
+{
+    margin:10px;
 }

@@ -1,19 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="fr">
     <head>    
         <title>MisiDev</title>
         <meta charset="UTF-8"/>
         <link href="assets/style/style.css" rel="stylesheet"/>
+        <script> 
+            function applyStylesToIframe() { 
+                var iframe = document.getElementById('menu-iframe'); 
+                iframe.onload = function() { 
+                    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document; 
+                    var specificLink = iframeDocument.getElementById('specific-link'); 
+                    if (specificLink) { 
+                        specificLink.style.backgroundColor = 'red'; 
+                        specificLink.style.color = 'white';
+                    } 
+                }; 
+            } 
+            window.onload = applyStylesToIframe; 
+        </script>
     </head>
     <body>
         <!-- MENU -->
-        <header  class="header">
-
-            <!-- nav -->
-            <?php 
-                include 'nav.php';
-            ?>
-            <!-- End nav -->
+        <header id="header" class="header">
+        <!-- nav -->
+            <iframe src="assets/pages/nav.html" id="menu-iframe" ></iframe>
+        <!-- End nav -->
         </header>
         <!-- End MENU-->
         <!-- HERO -->
@@ -24,7 +35,7 @@
                         <h1>MisiDev</h1>
                         <h2>Une solution pour tous vos projet Web</h2>
                         <p>Profitez des services d'un développeur web pour lancer votre projet</p>
-                        <a href="index.php#3">En savoir plus</a>
+                        <a id="video" class="bouton">En savoir plus</a>
                     </div>
                     <div>
                         <img src="assets/img/hero.jpg" ref="heroimg">
@@ -117,20 +128,9 @@
         <!-- Review-->
         <section id="3" class="review">
             <div id="container" >
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
-                    excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
-                    Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
-                    sunt debitis pariatur dolor temporibus odio. Aliquid consectetur eveniet in quam, possimus ad natus maiores numquam 
-                    beatae! Voluptatibus aliquam impedit voluptas.
-                </p>                       
+                
             </div> 
-        </section>
+         </section>
         <!-- End Review-->
-        <!-- Footer --> 
-        <?php 
-            include 'footer.php';
-        ?>
-        <!-- End Footer --> 
     </body>
 </html>
