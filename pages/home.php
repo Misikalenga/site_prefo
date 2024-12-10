@@ -7,6 +7,7 @@
         <link href="assets/style/style.css" rel="stylesheet"/>
     </head>
     <body>
+
         <!-- MENU -->
         <header  class="header">
 
@@ -21,13 +22,13 @@
         <section class="Hero">
             <div id="row">
                 <div id="col">
-                    <h1>MisiDev</h1>
-                    <h2>Une solution pour tous vos projet Web</h2>
-                    <p>Profitez des services d'un développeur web pour lancer votre projet</p>
-                    <a href="index.php#1">En savoir plus</a>
+                    <h1 class="logohero">MisiDev</h1>
+                    <h2>Votre développeur full stack</h2>
+                    <p>Ce site de prefo à pour but de vous montrer ma motivation à apprendre et mon envie de me surpasser</p>
+                    <a href="index.php#2">cliqué ici pour en savoir plus</a>
                 </div>
                 <div>
-                    <img src="assets/img/robot1.png" ref="heroimg">
+                    <img src="assets/img/robot1.png" class="vole" ref="heroimg">
                 </div>
             </div>
         </section>
@@ -42,15 +43,16 @@
             <div>
                 <div id="row">
                     <div id="col">
-                        <img src="public/assets/img/photo.jpg" ref="aboutimg">
+                        <img src="assets/img/Famille.jpg" ref="aboutimg">
                     </div>
                     <div id="col">
                         <h3>Future développeur web</h>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
-                            excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
-                            Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
-                            sunt debitis pariatur dolor temporibus odio. Aliquid consectetur eveniet in quam, possimus ad natus maiores numquam 
-                            beatae! Voluptatibus aliquam impedit voluptas.
+                        <p>Ma mère travaillait déjà sur un ordinateur dans les années 80 donc
+                             ça a toujours était évident pour moi de travailler avec un ordinateur. 
+                             J’ai eu mon premier ordinateur à 9 ans et depuis, je peux plus m’en passer. 
+                             J’ai eu la chance de connaître windows 98 et même des versions antérieures comme 
+                             windows 95 et windows 3.2. J’ai toujours été passionné des nouvelles technologie et en 
+                             développant j'ai l'impression de participé à cette reévolution technologique.
                         </p>
                     </div>
                 </div>
@@ -63,8 +65,12 @@
                 <div id="col">
                     <div id="box" class="box">
                         <i class="iconebox"></i>
-                        <h2>Point fort 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
+                        <h2>Formation de developpeur web</h2>
+                        <p>
+                            Cette formation me donne la possibilité d'appronfondir mes connaissances et d'apprendre un métier que je trouve formidable.
+                            J'adore résoudre des problème et j'ai souvent besoin de m'isoler pour avancer dans mes projets. Ce travail corresponds au mode de vie 
+                            que je veux avoir 
+                        </p>
 
                     </div>
                 </div>

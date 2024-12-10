@@ -18,23 +18,51 @@
         </header>
         <!-- End MENU-->
 
-        <section  class="pageremplie">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eum voluptatibus, 
-            perspiciatis in consectetur ut ipsa ducimus neque quidem? Voluptatum cumque quae illum vitae debitis. 
-            Nesciunt molestiae enim atque tenetur tempore fugiat corporis qui ad quas, porro esse aperiam assumenda in! 
-            Accusamus magni pariatur, aliquam neque nostrum harum. Error earum fugit nesciunt doloremque velit magni, 
-            quod impedit optio, necessitatibus excepturi temporibus. Voluptatem explicabo cumque illo vel perferendis 
-            magni ullam esse voluptatibus cum? Eaque, sapiente! Minima sit doloremque, aliquid aliquam suscipit cupiditate! 
-            Ratione optio quod esse saepe voluptatum quaerat omnis corrupti ducimus, fuga cumque ut? A voluptas officiis similique 
-            quas mollitia. Atque similique sint ducimus consectetur beatae fugiat, quam quos dignissimos placeat repellendus perspiciatis 
-            veritatis, unde autem debitis praesentium fuga. Sit atque maxime quos fugit modi doloremque impedit aut, inventore alias 
-            voluptatum repellendus voluptatem quae minus cumque, explicabo qui vero sunt assumenda! Neque exercitationem tempore 
-            laborum repudiandae ut at et perspiciatis aliquam iusto, dolore est dolorem, consequatur excepturi veritatis nihil velit, 
-            commodi laudantium ullam vel? Maxime, nemo, reprehenderit quod in sit consectetur quaerat veritatis qui quam est perferendis 
-            deserunt dolorem assumenda laboriosam, quo sunt fugit accusamus minus tempora cumque velit provident. Totam dolorem quasi 
-            facere obcaecati et hic amet voluptates vero.
-        </p>
+        <section  class="pageremplie">    
+            <h2>
+                Étudier le passé, c'est comprendre le présent et préparer l'avenir.
+            </h2>
+            <h3>
+                Le musée de Bruxelles
+            </h3>
+            
+        <div class="article">
+            <p>
+                J’ai été marqué par ce regroupement de culture et d’histoire Belge. 
+                Ce musée m’a fait penser aux expositions universelles du vingtième siècle. 
+                Ces événements montraient l’art et l’héritage culturel de chaque pays. Contrairement
+                 aux expositions universelles modernes qui n'exposent que de l’art contemporain, fade et sans identité. 
+            </p>
+            <img src="assets/img/robotbibli.png" class="imgarticle" ref="expobibli">
+        </div>    
+            <p>
+                En parcourant ces locaux à travers ce jeu rempli d'énigme, j’ai eu l’impression de voir une exposition sur l'histoire 
+                et la culture Belge. L’ambiance me donnait l'impression d’être en dehors du temps, comme un enfant qui découvre 
+                le monde en s’amusant et en écoutant les contes racontés par des personnes qui ont survécu à un monde qui leur paraît 
+                invraisemblable. 
+            </p>
+            <p>
+                Il y avait une salle avec une énorme carte qui m’a fait penser que l’histoire de la Belgique ne se 
+                limite pas à son territoire. Les langues que l’on parle viennent d’ailleurs, ce qui se décide ici s’applique 
+                dans tout un continent et le plus grand territoire que la Belgique a conquis se trouvait à l’autre bout du monde.
+                <br /> 
+                La frites Belge n'aurait pas existé sans la découverte de l'Amérique ou l’art de frire les aliments, 
+                sûrement hérité de la chine qui cuisine de cette manière depuis des millénaires. 
+                J’ai réalisé que la Belgique est un pays tourné vers le monde, un pays bien plus grand que ces frontières. 
+            </p>
+            <p>
+                Je pense que cette petite visite au musée m’a permis de voir la Belgique sous un nouvelle l’angle. 
+                Comme ces trompes l’oeil qui représente à la fois une jeune femme et une vieille dame. 
+                Quand on les regarde pour la première fois, on ne voit qu’une seule personne, mais dès qu’on découvre l’autre femme. 
+                On sait que l’illustration représente plusieurs choses avec les mêmes traits et que c’est notre façon d’observer qui 
+                nous révèlent une facette de l’image. Après avoir découvert cette nouvelle facette, on ne peut plus retourner en arrière, 
+                notre perception est changée pour toujours. 
+            </p>
+            <p>
+                J’ai bien aimé cette expérience qui m’a permis de revisiter Bruxelles. À force de penser à notre avenir, 
+                on oublie souvent le passé qui a pourtant façonné notre présent. Le jeu est vraiment une belle façon de visiter un musée. 
+                En plus de l’histoire j’ai découvert tout un tas d'anecdotes sur ces personnes qui ont participé à l’histoire Belge.
+            </p>
         </section>
         
         <!-- Footer --> 
