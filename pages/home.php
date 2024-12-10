@@ -18,18 +18,16 @@
         </header>
         <!-- End MENU-->
         <!-- HERO -->
-        <section>
-            <div id="containerHero">
-                <div id="row">
-                    <div id="col">
-                        <h1>MisiDev</h1>
-                        <h2>Une solution pour tous vos projet Web</h2>
-                        <p>Profitez des services d'un développeur web pour lancer votre projet</p>
-                        <a href="index.php#3">En savoir plus</a>
-                    </div>
-                    <div>
-                        <img src="assets/img/hero.jpg" ref="heroimg">
-                    </div>
+        <section class="Hero">
+            <div id="row">
+                <div id="col">
+                    <h1>MisiDev</h1>
+                    <h2>Une solution pour tous vos projet Web</h2>
+                    <p>Profitez des services d'un développeur web pour lancer votre projet</p>
+                    <a href="index.php#1">En savoir plus</a>
+                </div>
+                <div>
+                    <img src="assets/img/robot1.png" ref="heroimg">
                 </div>
             </div>
         </section>
