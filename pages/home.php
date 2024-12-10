@@ -36,7 +36,7 @@
         <!-- End HERO -->
 
         <!-- ABOUT ME-->
-         <section id="1" class="aboutme">
+        <section  class="pageremplie">
             <div id="container" >
                 <h2>À mon sujet</h2>
                 <p>Apprenez s'en plus sur moi</p>

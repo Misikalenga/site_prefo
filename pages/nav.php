@@ -50,11 +50,13 @@
             
         <nav  class="navbar">
             <!-- bouton burger -->
-            <div class="burgerOn" onclick="burgerActive()">
-                <img src="../public/assets/img/menu2.png" >
-            </div>
-            <div class="burgerOff" onclick="burgerActive()">
-                <img src="../public/assets/img/fermer2.png" >
+            <div class="stopburger">
+                <div class="burgerOn" onclick="burgerActive()">
+                    <img src="../public/assets/img/menu2.png" >
+                </div>
+                <div class="burgerOff" onclick="burgerActive()">
+                    <img src="../public/assets/img/fermer2.png" >
+                </div>
             </div>
             <!-- End bouton burger -->            
             <a href="index.php"  ><h5 class="iconemenu" >MisiDev</h5></a>

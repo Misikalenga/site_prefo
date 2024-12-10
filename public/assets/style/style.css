@@ -4,8 +4,14 @@ body
 {
     margin: 0;
     padding-top: 100px;
+    min-height: 80vh;
 }
 
+.pageremplie
+{
+    flex: 1;
+    min-height: 90vh;
+}
 header
 {
     margin: 0;
@@ -157,6 +163,7 @@ a
     justify-content: flex-start;
     background: linear-gradient(0deg, #727272, #272727);
     height: 300px;
+    padding-top: 20px;
 }
 
 .menufooter
@@ -213,10 +220,27 @@ h4
 
 .copyright
 {
-    margin:10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding:0px;
+    height: 20px;
+    background-color: #eeeeee;
+}
+
+.copyright p
+{
+    margin: 0;
+    padding: 0;   
 }
 
 /* Version Iphone */
+
+.stopburger
+{
+    display: none;
+}
+
 .burgerOn
 {
     display: none;
@@ -266,6 +290,12 @@ h4
         width: 80%;
 
     }
+
+    .stopburger
+    {
+        display: flex;
+    }
+
     .burgerOn
     {
         display: flex;
@@ -298,7 +328,7 @@ h4
 
     .menuburger
     {
-        display:list-item;
+        display:none;
         list-style: none;
         background: linear-gradient(0deg, #00ff73, #c20303);
         margin: 0;
@@ -314,4 +344,28 @@ h4
         margin: 20px;
     }
 
+    .footer
+    {
+        display: list-item;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: linear-gradient(0deg, #727272, #272727);
+        height: 500px;
+    }
+    .footertext
+    {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .liens
+    {
+        margin-left: 0;
+        color: white;
+    }
+    .liens h4
+    {
+        display: flex;
+        justify-content: center;
+    }
 }

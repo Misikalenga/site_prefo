@@ -18,7 +18,7 @@
         </header>
         <!-- End MENU-->
 
-        <section>
+        <section  class="pageremplie">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eum voluptatibus, 
             perspiciatis in consectetur ut ipsa ducimus neque quidem? Voluptatum cumque quae illum vitae debitis. 
