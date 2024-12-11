@@ -11,6 +11,7 @@ body
 {
     flex: 1;
     min-height: 90vh;
+
 }
 header
 {
@@ -204,18 +205,35 @@ a
 .article
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
+.article div
+{
+    max-width: 500px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
 .article p
 {
-    max-width: 400px;
+    /* max-width: 60%; */
+
 }
 
 .imgarticle
 {
     max-width: 300px;
     max-height: 300px;
+}
+
+/* Imagesection */
+
+.imgsection 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
@@ -464,4 +482,25 @@ h4
         display: flex;
         justify-content: center;
     }
+}
+
+/* galerie */
+
+.galerie
+{ 
+    margin-bottom: 20px; 
+}
+     
+.galerie img {
+     max-width: 100%; max-height: 80vh; 
+} 
+
+.buttons  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+     margin: 5px; padding: 10px 20px;
+
 }

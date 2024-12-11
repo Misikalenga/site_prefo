@@ -47,12 +47,8 @@
                     </div>
                     <div id="col">
                         <h3>Future développeur web</h>
-                        <p>Ma mère travaillait déjà sur un ordinateur dans les années 80 donc
-                             ça a toujours était évident pour moi de travailler avec un ordinateur. 
-                             J’ai eu mon premier ordinateur à 9 ans et depuis, je peux plus m’en passer. 
-                             J’ai eu la chance de connaître windows 98 et même des versions antérieures comme 
-                             windows 95 et windows 3.2. J’ai toujours été passionné des nouvelles technologie et en 
-                             développant j'ai l'impression de participé à cette reévolution technologique.
+                        <p>
+                            
                         </p>
                     </div>
                 </div>

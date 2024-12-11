@@ -22,10 +22,6 @@
             $activeConclu = true;
  
         }
-        else if($_GET['pg'] == 'contact'){
-            $activeCont = true;
- 
-        }
 
     }
 ?>
@@ -66,7 +62,6 @@
                     <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}else{echo "bouton";}?>" ><strong>Interview</strong></a></li>
                     <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}else{echo "bouton";}?>" ><strong>Galerie</strong></a></li>
                     <li ><a href="?pg=conclusion" class="<?php if($activeConclu == true){echo "active";}else{echo"bouton";}?>" ><strong>Conclusion</strong></a></li>
-                    <li ><a href="?pg=contact" class="<?php if($activeCont == true){echo "active";}else{echo "bouton";}?>" ><strong>Conctact</strong></a></li>
                 </ul>
             </div>
             </nav>
@@ -77,7 +72,6 @@
                 <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}else{echo "bouton";}?>" ><strong>Interview</strong></a></li>
                 <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}else{echo "bouton";}?>" ><strong>Galerie</strong></a></li>
                 <li ><a href="?pg=conclusion" class="<?php if($activeConclu == true){echo "active";}else{echo"bouton";}?>" ><strong>Conclusion</strong></a></li>
-                <li ><a href="?pg=contact" class="<?php if($activeCont == true){echo "active";}else{echo "bouton";}?>" ><strong>Conctact</strong></a></li>
             </ul>
             <!-- End menu burger -->
 

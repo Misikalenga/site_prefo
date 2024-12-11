@@ -18,7 +18,23 @@
             <!-- End MENU-->
 
             <section  class="pageremplie">
-                <h6>404</h6>
+                <div class=article>
+
+                </div>
+                <div class=article>
+                    <img src="assets/img/robot404.png" class="vole" ref="expobibli">   
+                    <div>
+                        <h2>Erreur 404! Page introuvable</h2>
+                        <p>
+                            Il semble que la page que vous cherchez soit introuvable.
+                            <br/> 
+                            Nous vous invitons à revenir à la page d'accueil et à poursuivre votre navigation. 
+                            Si le problème persiste, n'hésitez pas à nous contacter pour obtenir de l'aide. 
+                            <br/> 
+                            Merci de votre compréhension et désolé pour le désagrément.
+                        </p>
+                    </div>
+                </div>
             </section>
 
             <!-- Footer --> 

@@ -19,28 +19,36 @@
         <!-- End MENU-->
 
         <section  class="pageremplie">    
+        <div class="article">         
             <h2>
                 Étudier le passé, c'est comprendre le présent et préparer l'avenir.
-            </h2>
+            </h2>  
+        </div>   
+        <div class="article">     
             <h3>
                 Le musée de Bruxelles
             </h3>
-            
+        </div>             
         <div class="article">
+            <img src="assets/img/robotbibli.png" class="imgarticle" ref="expobibli">
             <p>
                 J’ai été marqué par ce regroupement de culture et d’histoire Belge. 
                 Ce musée m’a fait penser aux expositions universelles du vingtième siècle. 
                 Ces événements montraient l’art et l’héritage culturel de chaque pays. Contrairement
                  aux expositions universelles modernes qui n'exposent que de l’art contemporain, fade et sans identité. 
             </p>
-            <img src="assets/img/robotbibli.png" class="imgarticle" ref="expobibli">
+
         </div>    
+        <div class="article">
+            <img src="assets/img/robotterre.png" class="imgarticle" ref="expobibli">
             <p>
                 En parcourant ces locaux à travers ce jeu rempli d'énigme, j’ai eu l’impression de voir une exposition sur l'histoire 
                 et la culture Belge. L’ambiance me donnait l'impression d’être en dehors du temps, comme un enfant qui découvre 
                 le monde en s’amusant et en écoutant les contes racontés par des personnes qui ont survécu à un monde qui leur paraît 
                 invraisemblable. 
             </p>
+>
+        </div>  
             <p>
                 Il y avait une salle avec une énorme carte qui m’a fait penser que l’histoire de la Belgique ne se 
                 limite pas à son territoire. Les langues que l’on parle viennent d’ailleurs, ce qui se décide ici s’applique 

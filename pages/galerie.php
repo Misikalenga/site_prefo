@@ -19,22 +19,47 @@
         <!-- End MENU-->
 
         <section  class="pageremplie">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam eum voluptatibus, 
-            perspiciatis in consectetur ut ipsa ducimus neque quidem? Voluptatum cumque quae illum vitae debitis. 
-            Nesciunt molestiae enim atque tenetur tempore fugiat corporis qui ad quas, porro esse aperiam assumenda in! 
-            Accusamus magni pariatur, aliquam neque nostrum harum. Error earum fugit nesciunt doloremque velit magni, 
-            quod impedit optio, necessitatibus excepturi temporibus. Voluptatem explicabo cumque illo vel perferendis 
-            magni ullam esse voluptatibus cum? Eaque, sapiente! Minima sit doloremque, aliquid aliquam suscipit cupiditate! 
-            Ratione optio quod esse saepe voluptatum quaerat omnis corrupti ducimus, fuga cumque ut? A voluptas officiis similique 
-            quas mollitia. Atque similique sint ducimus consectetur beatae fugiat, quam quos dignissimos placeat repellendus perspiciatis 
-            veritatis, unde autem debitis praesentium fuga. Sit atque maxime quos fugit modi doloremque impedit aut, inventore alias 
-            voluptatum repellendus voluptatem quae minus cumque, explicabo qui vero sunt assumenda! Neque exercitationem tempore 
-            laborum repudiandae ut at et perspiciatis aliquam iusto, dolore est dolorem, consequatur excepturi veritatis nihil velit, 
-            commodi laudantium ullam vel? Maxime, nemo, reprehenderit quod in sit consectetur quaerat veritatis qui quam est perferendis 
-            deserunt dolorem assumenda laboriosam, quo sunt fugit accusamus minus tempora cumque velit provident. Totam dolorem quasi 
-            facere obcaecati et hic amet voluptates vero.
-        </p>
+        <script>
+            let currentPhotoIndex = 0;
+            const photos = ['assets/img/photo/photo (1).jpg','assets/img/photo/photo (2).jpg','assets/img/photo/photo (3).jpg',
+                'assets/img/photo/photo (4).jpg', 'assets/img/photo/photo (5).jpg','assets/img/photo/photo (6).jpg','assets/img/photo/photo (7).jpg',
+                'assets/img/photo/photo (8).jpg', 'assets/img/photo/photo (9).jpg','assets/img/photo/photo (10).jpg','assets/img/photo/photo (11).jpg',
+                'assets/img/photo/photo (12).jpg', 'assets/img/photo/photo (13).jpg','assets/img/photo/photo (14).jpg'
+            ]; 
+
+            function showPhoto(index) {
+                const photoElement = document.getElementById('photo');
+                if (index >= 0 && index < photos.length) {
+                photoElement.src = photos[index];
+                }
+            }      
+
+            function previousPhoto() {
+                currentPhotoIndex = (currentPhotoIndex - 1 + photos.length) % photos.length;
+                showPhoto(currentPhotoIndex);
+            }
+
+            function nextPhoto() {
+                currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+                showPhoto(currentPhotoIndex);
+            }
+
+            document.addEventListener('DOMContentLoaded', () => {
+                showPhoto(currentPhotoIndex);
+            });
+
+        </script>
+            <div class="imgsection">
+                <div class="galerie">
+                    <div> 
+                        <img id="photo" src="photo1.jpg" alt="Photo"> 
+                    </div> 
+                    <div class="buttons">
+                        <button onclick="previousPhoto()">Précédente</button> 
+                        <button onclick="nextPhoto()">Suivante</button>
+                    </div>
+                </div>
+            </div>
         </section>
         
         <!-- Footer --> 
