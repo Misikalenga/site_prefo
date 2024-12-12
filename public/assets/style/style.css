@@ -227,6 +227,15 @@ a, p, h3, h4
     box-shadow: 5px 15px 15px rgba(13, 49, 148, 0.3);
 }
 
+.buleI
+{
+    background-color: #e8edfc;
+    margin: 3.2rem 0;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 5px 15px 15px rgba(13, 49, 148, 0.3);
+}
+
 .buleM h4
 {
     display: block; 
@@ -267,8 +276,6 @@ a, p, h3, h4
     max-width: 300px;
     max-height: 300px;
 }
-
-
 
 /* galerie */
 .imgsection 

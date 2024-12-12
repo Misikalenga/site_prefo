@@ -35,10 +35,8 @@
             <div class="footertext">
                 <a href="index.php"  ><h5 class="ficonemenu" >MisiDev</h5></a>
                 <p class="pfooter">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, maxime.
+                    Mon projet est en plein développement. 
+                    Revenez souvent pour découvrir les avancées et les nouveautés ce site est en constante évolution. Merci de faire partie de cette aventure !.
                 </p>
             </div>
             <div class="liens">

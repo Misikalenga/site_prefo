@@ -3,6 +3,7 @@ const ROUTE = [
     "conclusion",
     "galerie",
     "exposition",
-    "interview"
+    "interview",
+    "home"
 ];
 

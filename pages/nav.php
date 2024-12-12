@@ -5,6 +5,7 @@
     $activeGaler = false;
     $activeConclu = false;
     $activeCont = false;
+    $activeHome = false;
     if (isset($_GET['pg'])){
         if ($_GET['pg'] == 'exposition'){
             $activeExpo = true;
@@ -20,6 +21,10 @@
         }
         else if($_GET['pg'] == 'conclusion'){
             $activeConclu = true;
+ 
+        }
+        else if($_GET['pg'] == 'home'){
+            $activeHome = true;
  
         }
 
@@ -55,9 +60,10 @@
                 </div>
             </div>
             <!-- End bouton burger -->            
-            <a href="index.php"  ><h5 class="iconemenu" >MisiDev</h5></a>
+            <a href="?pg=home" ><h5 class="iconemenu" >MisiDev</h5></a>
             <div class="menu">
                 <ul class="boutonmenu">
+                    <li ><a href="?pg=home" class="<?php if($activeHome == true){echo "active";}else{echo "bouton";}?>" ><strong>Acceuil</strong></a></li>
                     <li ><a href="?pg=exposition" class="<?php if($activeExpo == true){echo "active";}else{echo "bouton";}?>" ><strong>Exposition</strong></a></li>
                     <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}else{echo "bouton";}?>" ><strong>Interview</strong></a></li>
                     <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}else{echo "bouton";}?>" ><strong>Galerie</strong></a></li>
@@ -68,6 +74,7 @@
 
             <!-- menu burger -->
             <ul class="menuburger">
+                <li ><a href="?pg=home" class="<?php if($activeHome == true){echo "active";}else{echo "bouton";}?>" ><strong>Acceuil</strong></a></li>
                 <li ><a href="?pg=exposition" class="<?php if($activeExpo == true){echo "active";}else{echo "bouton";}?>" ><strong>Exposition</strong></a></li>
                 <li ><a href="?pg=interview" class="<?php if($activeInter == true){echo "active";}else{echo "bouton";}?>" ><strong>Interview</strong></a></li>
                 <li ><a href="?pg=galerie" class="<?php if($activeGaler == true){echo "active";}else{echo "bouton";}?>" ><strong>Galerie</strong></a></li>
