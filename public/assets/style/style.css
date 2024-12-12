@@ -137,7 +137,9 @@ a, p, h3, h4
 
 .Hero
 {
-    background: url("../img/herowhite.jpg");
+    background: url("../img/Hero.png");
+    background-size: 110%;
+    margin: 0;
     background-repeat: no-repeat;
     padding: 40px;
     margin: 0;
@@ -200,6 +202,20 @@ a, p, h3, h4
     }
 }
 
+/* animation page */
+
+@keyframes pageslide {
+    0%{
+        transform: translateY(-200px)
+
+    }
+    100% {
+        transform: translateY(0px);
+        scale: 1.5;
+        opacity: 1;
+    }
+}
+
 /* article */
 
 .imginterM
@@ -225,6 +241,11 @@ a, p, h3, h4
     padding: 32px;
     border-radius: 16px;
     box-shadow: 5px 15px 15px rgba(13, 49, 148, 0.3);
+    animation: pageslide linear forwards;
+    scale: 0.2;
+    animation-timeline: view();
+    animation-range: 100px 500px;
+    opacity: 0;
 }
 
 .buleI
@@ -234,6 +255,10 @@ a, p, h3, h4
     padding: 32px;
     border-radius: 16px;
     box-shadow: 5px 15px 15px rgba(13, 49, 148, 0.3);
+    scale: 0.2;
+    animation: pageslide linear forwards;
+    animation-timeline: view();
+    animation-range: 100px 500px;
 }
 
 .buleM h4

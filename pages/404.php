@@ -4,6 +4,7 @@
         <title>Contact</title>
         <meta charset="UTF-8"/>
         <link href="assets/style/style.css" rel="stylesheet"/>
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     </head>
     <body>
             <!-- MENU -->
