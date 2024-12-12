@@ -43,7 +43,7 @@
             <div>
                 <div id="row">
                     <div id="col">
-                        <img src="assets/img/Famille.jpg" ref="aboutimg">
+                        <img src="assets/img/robot1.png" ref="aboutimg">
                     </div>
                     <div id="col">
                         <h3>Future développeur web</h>

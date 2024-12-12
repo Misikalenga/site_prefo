@@ -29,7 +29,7 @@
                 Le musée de Bruxelles
             </h3>
         </div>             
-        <div class="article">
+        <div class="buleM">
             <img src="assets/img/robotbibli.png" class="imgarticle" ref="expobibli">
             <p>
                 J’ai été marqué par ce regroupement de culture et d’histoire Belge. 
@@ -39,7 +39,7 @@
             </p>
 
         </div>    
-        <div class="article">
+        <div class="bule">
             <img src="assets/img/robotterre.png" class="imgarticle" ref="expobibli">
             <p>
                 En parcourant ces locaux à travers ce jeu rempli d'énigme, j’ai eu l’impression de voir une exposition sur l'histoire 
@@ -47,8 +47,8 @@
                 le monde en s’amusant et en écoutant les contes racontés par des personnes qui ont survécu à un monde qui leur paraît 
                 invraisemblable. 
             </p>
->
-        </div>  
+        </div> 
+        <div class="buleM"> 
             <p>
                 Il y avait une salle avec une énorme carte qui m’a fait penser que l’histoire de la Belgique ne se 
                 limite pas à son territoire. Les langues que l’on parle viennent d’ailleurs, ce qui se décide ici s’applique 
@@ -58,6 +58,8 @@
                 sûrement hérité de la chine qui cuisine de cette manière depuis des millénaires. 
                 J’ai réalisé que la Belgique est un pays tourné vers le monde, un pays bien plus grand que ces frontières. 
             </p>
+        </div> 
+        <div class="bule">
             <p>
                 Je pense que cette petite visite au musée m’a permis de voir la Belgique sous un nouvelle l’angle. 
                 Comme ces trompes l’oeil qui représente à la fois une jeune femme et une vieille dame. 
@@ -66,11 +68,15 @@
                 nous révèlent une facette de l’image. Après avoir découvert cette nouvelle facette, on ne peut plus retourner en arrière, 
                 notre perception est changée pour toujours. 
             </p>
+        </div>     
+        <div class="buleM">
+
             <p>
                 J’ai bien aimé cette expérience qui m’a permis de revisiter Bruxelles. À force de penser à notre avenir, 
                 on oublie souvent le passé qui a pourtant façonné notre présent. Le jeu est vraiment une belle façon de visiter un musée. 
                 En plus de l’histoire j’ai découvert tout un tas d'anecdotes sur ces personnes qui ont participé à l’histoire Belge.
             </p>
+        </div> 
         </section>
         
         <!-- Footer --> 

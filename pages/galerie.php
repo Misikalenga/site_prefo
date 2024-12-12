@@ -55,8 +55,8 @@
                         <img id="photo" src="photo1.jpg" alt="Photo"> 
                     </div> 
                     <div class="buttons">
-                        <button onclick="previousPhoto()">Précédente</button> 
-                        <button onclick="nextPhoto()">Suivante</button>
+                        <button onclick="previousPhoto()">◀</button> 
+                        <button onclick="nextPhoto()">▶</button>
                     </div>
                 </div>
             </div>
