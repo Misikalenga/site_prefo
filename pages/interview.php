@@ -20,6 +20,16 @@
         <!-- End MENU-->
 
         <section  class="pageremplie">
+        <div class="buleP">
+                <img src="assets/img/home/m4.png" class="imginterM" ref="interview">
+                <div>
+                    <h4>Interview De </h4>
+                    <h3>Yassine El Khanboubi</h3>
+                    <p>
+                         Qui qui travaille sur le site de la rtbf.be de la RTBF
+                    </p>
+                </div>
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/3.png" class="imginterM" ref="interview">
                 <h4>Question 1</h4>
@@ -60,6 +70,9 @@
                     utilisent les mêmes technologies, les mêmes API. Tout est lié avec des API, le back-end et le front-end aussi.
                 </p>
             </div>
+            <div class="buleP">
+                <img src="assets/img/home/m6.png" class="imginterM" ref="interview">
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/4.png" class="imginterM" ref="interview">
                 <h4>Question 3</h4>
@@ -76,6 +89,9 @@
                     c'est toujours en PHP 7 mais on est en train de refaire le CMS avec des nouvelles technologies 
                     avec des des stacks à jour. 
                 </p>
+            </div>
+            <div class="buleP">
+                <img src="assets/img/home/9.png" class="imginterM" ref="interview">
             </div>
             <div class="buleM">
                 <img src="assets/img/inter/5.png" class="imginterM" ref="interview">
@@ -112,6 +128,9 @@
                     mais les anciens gens de la RTBF l’applique et tout le monde doit le respecter. 
                 </p>
             </div>
+            <div class="buleP">
+                <img src="assets/img/home/m2.png" class="imginterM" ref="interview">
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/6.png" class="imginterM" ref="interview">
                 <h4>Question 6</h4>
@@ -141,6 +160,11 @@
                     Tu es déjà un senior?
                 </p>
             </div>
+
+            <div class="buleP">
+                <img src="assets/img/home/10.png" class="imginterM" ref="interview">
+            </div>
+
             <div class="bule">
                 <img src="assets/img/inter/1.png" class="imginter" ref="interview">
                 <h4>Reponse 7</h4>
@@ -191,6 +215,9 @@
                     Après, si tu as la logique, tu as l'algorithme en tête, tu peux coder avec n'importe quel langage. 
                 </p>
             </div>
+            <div class="buleP">
+                <img src="assets/img/home/m2.png" class="imginterM" ref="interview">
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/9.png" class="imginterM" ref="interview">
                 <h4>Question 10</h4>
@@ -211,6 +238,9 @@
                     mais à chaque fois, tu as des problèmes. Honnêtement, c'est ce que j'aime le mieux. 
                     C'est avoir des problèmes et puis les résoudre. Après, tu te sens confiant, tu te sens compétent. 
                 </p>
+            </div>
+            <div class="buleP">
+                <img src="assets/img/home/m1.png" class="imginterM" ref="interview">
             </div>
             <div class="buleM">
                 <img src="assets/img/inter/2.png" class="imginterM" ref="interview">
@@ -265,6 +295,9 @@
                     Mais pour l'équipe développement, on est à peu près 22. 
                 </p>
             </div>
+            <div class="buleP">
+                <img src="assets/img/home/8.png" class="imginterM" ref="interview">
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/6.png" class="imginterM" ref="interview">
                 <h4>Question 14</h4>
@@ -317,6 +350,9 @@
                     Le lundi je suis obligé d’être là parce qu'on a la réunion. 
                 </p>
             </div>
+            <div class="buleP">
+                <img src="assets/img/home/m4.png" class="imginterM" ref="interview">
+            </div>
             <div class="buleM">
                 <img src="assets/img/inter/11.png" class="imginterM" ref="interview">
                 <h4>Question 17</h4>
@@ -366,7 +402,9 @@
                     Si on veut vraiment être expert, on doit se focaliser sur un objectif. 
                 </p>
             </div>
-            
+            <div class="buleP">
+                <img src="assets/img/home/10.png" class="imginterM" ref="interview">
+            </div>
         </section>
         
         <!-- Footer --> 

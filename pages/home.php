@@ -24,111 +24,72 @@
             <div id="row">
                 <div id="col">
                     <h1 class="logohero">MisiDev</h1>
-                    <h2>Votre développeur full stack</h2>
+                    <h2>Futur développeur full stack</h2>
                     <p>Ce site de prefo à pour but de vous montrer ma motivation à apprendre et mon envie de me surpasser</p>
-                    <a href="index.php#2">cliqué ici pour en savoir plus</a>
+
                 </div>
-                <div>
-                    <img src="assets/img/robot1.png" class="vole" ref="heroimg">
+                <div class="center">                      
+                    <img src="assets/img/robothome.png" class="vole" ref="heroimg">
                 </div>
             </div>
         </section>
         <!-- End HERO -->
-
-        <!-- ABOUT ME-->
-        <section  class="pageremplie">
-            <div id="container" >
-                <h2>À mon sujet</h2>
-                <p>Apprenez s'en plus sur moi</p>
-            </div> 
-            <div>
-                <div id="row">
-                    <div id="col">
-                        <img src="assets/img/robot1.png" ref="aboutimg">
+        <!-- section-->
+        <section>
+        <div class="center">
+                <div class="buleHome">
+                    <div class="center">
+                            <img src="assets/img/home/1.png" class="imgarticle" ref="expobibli">
                     </div>
-                    <div id="col">
-                        <h3>Future développeur web</h>
-                        <p>
-                            
-                        </p>
-                    </div>
-                </div>
+                </div> 
             </div>
-         </section>
+        <div class="center">
+            <div class="buleH">
+                <img src="assets/img/home/m4.png" class="imginterM" ref="interview">
+                <h4>Pour moi, la programmation n'est pas seulement un choix de carrière!</h4>
 
-            <!-- Box-->
-        <section id="box" class="aboutme">
-            <div id="container" >
-                <div id="col">
-                    <div id="box" class="box">
-                        <i class="iconebox"></i>
-                        <h2>Formation de developpeur web</h2>
-                        <p>
-                            Cette formation me donne la possibilité d'appronfondir mes connaissances et d'apprendre un métier que je trouve formidable.
-                            J'adore résoudre des problème et j'ai souvent besoin de m'isoler pour avancer dans mes projets. Ce travail corresponds au mode de vie 
-                            que je veux avoir 
-                        </p>
-
-                    </div>
-                </div>
-                <div id="col">
-                    <div id="box" class="box">
-                        <h2>Point fort 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
-
-                    </div>
-                </div>
-                <div id="col">
-                    <div id="box" class="box">
-                         <h2>Point fort 3</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque ut aspernatur tempore soluta harum!</p>
-
-                    </div>
-                </div>
-            </div> 
-         </section>
-            <!-- Box-->
-        <!-- End About Me-->
-
-        <!-- Why Us-->
-        <section id="2" class="whyus">
-            <div id="container" >
-                <h2>Pourquoi moi</h2>
-                <p> </p>
-            </div> 
-            <div>
-                <div id="row">
-                    <div id="col">
-                        <h3>Pourquoi moi</h>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
-                                excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
-                                Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
-                                sunt debitis pariatur dolor temporibus odio. Aliquid consectetur eveniet in quam, possimus ad natus maiores numquam 
-                                beatae! Voluptatibus aliquam impedit voluptas.
-                            </p>
-
-                    </div>
-                    <div id="col">
-                        <img src="assets/img/motive.jpg" ref="whyusimg">
-                    </div>
-                </div>
             </div>
-         </section>
-        <!-- End Why Us-->
+            <div class="buleMH">
+                <img src="assets/img/home/8.png" class="imginter" ref="interview">
+                <h4>c'est une passion qui m'anime chaque jour!!</h4>
+            </div>
+            </div>
 
-        <!-- Review-->
-        <section id="3" class="review">
-            <div id="container" >
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque incidunt dolore ab itaque repellendus, 
-                    excepturi blanditiis, perferendis dolorum praesentium sunt voluptates consectetur porro hic inventore. 
-                    Culpa nostrum consectetur non maiores quam iusto fugiat perspiciatis minima adipisci. Facere illum explicabo 
-                    sunt debitis pariatur dolor temporibus odio. Aliquid consectetur eveniet in quam, possimus ad natus maiores numquam 
-                    beatae! Voluptatibus aliquam impedit voluptas.
-                </p>                       
-            </div> 
+
+
+        <section  class="bleu">
+            <div class="center">
+                <div>
+
+
+                <div class="buleB"> 
+                    <div class="center">
+                        <img src="assets/img/home/3.png" class="imgarticle" ref="expobibli">
+                    </div>
+                    <div>
+                <div class="buleIB">
+                    <h4>
+                        Chaque projet, chaque ligne de code, est une opportunité pour progresser 
+                    </h4>
+                </div> 
+                </div> 
+                </div>
+
+                </div> 
+            <div>
         </section>
-        <!-- End Review-->
+            
+            <div class="buleH">
+                <img src="assets/img/home/m6.png" class="imginterM" ref="interview">
+                <h4>La programmation est bien plus qu'une simple compétence pour moi!!</h4>
+
+            </div>
+            <div class="buleMH">
+                <img src="assets/img/home/7.png" class="imginter" ref="interview">
+                <h4>je veux transformer cette passion en résultats concrets!</h4>
+            </div>
+        </section>         
+        <!-- End section-->
         <!-- Footer --> 
         <?php 
             include 'footer.php';
