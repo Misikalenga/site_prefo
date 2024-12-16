@@ -23,7 +23,7 @@
             <div class="center">
             <div>
                 <h2>
-                    Étudier le passé, c'est comprendre le présent et préparer l'avenir.
+                    Quand la passion devient la profession.
                 </h2>  
    
                 <div class="buleI2">
@@ -31,9 +31,9 @@
                         <img src="assets/img/home/3.png" class="imgarticle" ref="expobibli">
                     </div>
                     <p>
-                        Ma mère travaillait déjà sur un ordinateur dans les années 70 donc ça toujours été évident 
+                        Ma mère travaillait déjà sur un ordinateur dans les années 80 donc ça a toujours été évident 
                         pour moi de travailler avec un ordinateur. J’ai eu mon premier ordinateur à 9 ans et depuis, 
-                        je peux plus m’en passer. J’ai eu la chance de connaître windows 98 et même des versions antérieures 
+                        je ne peux plus m’en passer. J’ai eu la chance de connaître windows 98 et même des versions antérieures 
                         comme windows 95 et windows 3.2 J’ai toujours été passionné des nouvelles technologies. 
                     </p>
                 </div>    
@@ -84,13 +84,10 @@
                         <img src="assets/img/home/6.png" class="imgarticle" ref="expobibli">
                     </div>
                     <p>
-                        Grâce à mon Interview j’ai eu l’occasion de parler avec un développeur très expérimenté. 
-                        Qui m’a permis de comprendre que ce métier correspond à toutes mes attentes. 
-                        Même si je suis quelqu’un de très sociable, je prends plaisir à m’isoler quand je travaille. 
-                        J’aime bien l’idée de faire quelque chose que la plupart des gens trouve incompréhensible, 
-                        un peu comme un scientifique qui résout un problème. Même si la solution au problème 
-                        qu’il résout est utile, la plupart des gens ne comprennent pas les raisonnement et 
-                        les théories qui lui ont permis de résoudre ce problème.
+                        Je ne me suis jamais senti autant à ma place dans une classe. 
+                        J’ai toujours étudié sans réel intérêt pour la matière que j'apprenais. 
+                        Même si j’aimais beaucoup les cours de science, tout ce que j’apprenais restait toujours 
+                        théorique et je n’avais jamais la possibilité d’appliquer mon apprentissage. 
                     </p>
                 </div> 
                 <div class="buleI">

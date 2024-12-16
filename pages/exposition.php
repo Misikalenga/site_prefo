@@ -103,7 +103,7 @@
                         Je pense que cette petite visite au musée m’a permis de voir la Belgique sous 
                         un nouvel angle. Comme ces trompes l’oeil qui représentent à la fois une jeune 
                         femme et une vieille dame. Quand on les regarde pour la première fois, on ne voit 
-                        u’une seule personne, mais dès qu’on découvre l’autre femme, on sait que l’illustration 
+                        qu’une seule personne, mais dès qu’on découvre l’autre femme, on sait que l’illustration 
                         représente plusieurs choses avec les mêmes traits et que c’est notre façon d’observer qui 
                         nous révèle une facette de l’image. Après avoir découvert cette nouvelle facette, on ne peut 
                         plus retourner en arrière, notre perception est changée pour toujours.
